@@ -1,14 +1,14 @@
 #include <stdio.h>
 // Variables Globales
-int caracter;
-char l;
+int valor;
+char caracter;
 
 // Funcion principal
 int main (){
     printf("Hola, ingrese un caracter.\n");
-    scanf("%i",&caracter);
-    l = caracter;
-    printf("Su codigo ascii es %i",l);
+    scanf("%c",&caracter);
+    valor = caracter;
+    printf("Su codigo ascii es %i",valor);
 
     return 0;
 }   
